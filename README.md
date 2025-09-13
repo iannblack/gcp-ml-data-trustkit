@@ -10,7 +10,10 @@ Data Trust kit for ML on **Google Cloud**: **YAML data contracts**, **PII checks
   <img alt="Made for GCP" src="https://img.shields.io/badge/GCP-BigQuery%20%7C%20Data%20Catalog%20%7C%20DLP-lightgrey">
 </p>
 
-> Replace badges with your repo paths: `https://github.com/<user>/<repo>/...`
+[![Contract Gate CI](https://github.com/iannblack/gcp-ml-data-trustkit/actions/workflows/contract-gate.yml/badge.svg)](https://github.com/iannblack/gcp-ml-data-trustkit/actions/workflows/contract-gate.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+![Made for GCP](https://img.shields.io/badge/GCP-BigQuery%20%7C%20Data%20Catalog%20%7C%20DLP-lightgrey)
+![Python 3.11](https://img.shields.io/badge/python-3.11-blue?logo=python&logoColor=white)
 
 ## Why
 
