@@ -1,0 +1,8 @@
+name: features_customer_events
+description: Feature table contract
+owner: ml-platform@company.example
+schema:
+  - { name: f1_scaled, type: float, nullable: false }
+  - { name: f2_scaled, type: float, nullable: false }
+  - { name: f3_scaled, type: float, nullable: false }
+  - { name: label, type: int, nullable: false, constraints: { allowed_values: [0,1] } }

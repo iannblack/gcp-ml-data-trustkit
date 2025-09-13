@@ -1,0 +1,1 @@
+CREATE SCHEMA IF NOT EXISTS `ml_trust`; CREATE TABLE IF NOT EXISTS `ml_trust.curated_customer_events` (feature_1 FLOAT64, feature_2 FLOAT64, feature_3 FLOAT64, target INT64);

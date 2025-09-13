@@ -1,0 +1,16 @@
+name: contract-gate
+on:
+  pull_request:
+  push: { branches: ["main"] }
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Install deps
+        run: pip install -r src/validator/requirements.txt
+      - name: Run validator
+        run: |
+          python src/validator/validate_contract.py             --contract contracts/dataset_contract.yaml             --data bq/sample/curated.csv             --out artifacts

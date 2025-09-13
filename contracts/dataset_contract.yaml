@@ -1,0 +1,9 @@
+name: curated_customer_events
+description: Curated dataset used for baseline model training
+owner: data-platform@company.example
+schema:
+  - { name: feature_1, type: float, nullable: false, constraints: { min: -1e6, max: 1e6 } }
+  - { name: feature_2, type: float, nullable: false }
+  - { name: feature_3, type: float, nullable: false }
+  - { name: target, type: int, nullable: false, constraints: { allowed_values: [0,1] } }
+pii: { expected: low, fields: [] }
